@@ -46,7 +46,7 @@ class LinkifyHelper implements HelperInterface
     /**
      * {@inheritdoc}
      */
-    public function setCharset($charset)
+    public function setCharset(string $charset)
     {
         $this->charset = $charset;
     }
@@ -54,7 +54,7 @@ class LinkifyHelper implements HelperInterface
     /**
      * {@inheritdoc}
      */
-    public function getCharset()
+    public function getCharset(): string
     {
         return $this->charset;
     }
